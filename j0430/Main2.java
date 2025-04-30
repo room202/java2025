@@ -1,4 +1,5 @@
 package j0430;
+
 public class Main2 {
     static byte glasses = 2;
     static short age = 18;
@@ -7,10 +8,13 @@ public class Main2 {
     static String msg = "ハローワールド";
 
     public static void main(String[] args) {
-        System.out.println(glasses);
-        System.out.println(age);
-        System.out.println(salary);
-        System.out.println(worldPeople);
-        System.out.println(msg);
+        boolean isError = false;
+        System.out.println(isError);
+
+        // System.out.println(glasses);
+        // System.out.println(age);
+        // System.out.println(salary);
+        // System.out.println(worldPeople);
+        // System.out.println(msg);
     }
 }
